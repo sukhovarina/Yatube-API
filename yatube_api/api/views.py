@@ -4,7 +4,8 @@ from rest_framework.pagination import LimitOffsetPagination
 
 from posts.models import Post, Group, User, Follow
 from .serializers import (
-    PostSerializer, GroupSerializer, CommentSerializer, UserSerializer, FollowSerializer
+    PostSerializer, GroupSerializer, CommentSerializer,
+    UserSerializer, FollowSerializer
 )
 from .permissions import ReadOnly
 
